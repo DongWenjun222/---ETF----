@@ -29,7 +29,7 @@ USE_SSL = True                    # 465 通常用 True；如果用 587 + STARTTL
 USERNAME = ""   # 登录账号，一般就是邮箱地址
 PASSWORD = "      # 很多邮箱是“客户端授权码”
 
-FROM_ADDR = "2489592676@qq.com"
+FROM_ADDR = ""
 TO_ADDRS =["","",""]# # 收件人列表
 CC_ADDRS = []  # 如有抄送，在这里加
 
