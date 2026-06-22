@@ -26,11 +26,11 @@ SMTP_HOST = "smtp.qq.com"   # 如：smtp.qq.com / smtp.163.com / smtp.office365.
 SMTP_PORT = 465                   # SSL 一般 465，STARTTLS 一般 587
 USE_SSL = True                    # 465 通常用 True；如果用 587 + STARTTLS，改为 False
 
-USERNAME = "2489592676@qq.com"   # 登录账号，一般就是邮箱地址
-PASSWORD = "sipzqxqftenndifj"      # 很多邮箱是“客户端授权码”
+USERNAME = ""   # 登录账号，一般就是邮箱地址
+PASSWORD = "      # 很多邮箱是“客户端授权码”
 
 FROM_ADDR = "2489592676@qq.com"
-TO_ADDRS = ['wenjun.dong@u.nus.edu', "mazm@sdicsc.com.cn","taojm@sdicsc.com.cn","sunyue1@sdicsc.com.cn","husb@sdicsc.com.cn","gaolu1@sdicsc.com.cn","gaocs@sdicsc.com.cn","zhaojn1@sdicsc.com.cn","tangwj@sdicsc.com.cn","dongwj1@sdicsc.com.cn"]#, "收件人2@company.com"]  # 收件人列表
+TO_ADDRS =["","",""]# # 收件人列表
 CC_ADDRS = []  # 如有抄送，在这里加
 
 
