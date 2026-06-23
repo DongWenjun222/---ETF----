@@ -275,11 +275,3 @@ plt.rcParams['axes.unicode_minus'] = False
 - 端口和 SSL / STARTTLS 设置是否匹配。
 - 附件和图片路径是否存在。
 
-## 维护建议
-
-- 不建议把授权码、个人邮箱、内部收件人列表直接写在代码中。
-- 不建议把每日生成的大量图片和 Excel 输出长期提交到 Git。
-- 建议补全 `requirements.txt`，让新环境部署更稳定。
-- 建议在 `step3画图.py` 中统一封装日期列匹配逻辑，减少 Excel 日期格式差异导致的报错。
-- 如需长期自动化运行，可使用 Windows 任务计划程序定时执行 `python main.py`。
-
